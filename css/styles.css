@@ -30,6 +30,8 @@ img {
     padding: 5px;
     z-index: 1;
     transition: 3000ms;
+    cursor: pointer;
+    
 }
 
 img:hover {
@@ -80,7 +82,8 @@ input {
     display: block;
     margin: 35px auto 10px;
     width: 200px;
-    background-color: #fff;
+    background-color: #0096FF;
+    color: #fff;
     padding: 3.5px 7px;
     font-size: 0.9rem;
     font-weight: bold;
@@ -89,7 +92,8 @@ input {
 }
 
 .form__btn:hover{
-    background-color: #0096FF;
+    background-color: #fff;
+    color: #0096FF;
     transition: 1000ms;
 }
 
